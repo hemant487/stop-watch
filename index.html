@@ -1,0 +1,23 @@
+ <html>
+
+<head>
+ 
+  <name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Stopwatch</title>
+  <link rel="stylesheet" href="index.css">
+</head>
+<body>
+  <h1>Stopwatch</h1>
+  <div id="stopwatch">
+    <div id="display">00:00:00.000</div>
+    <div id="controls">
+      <button id="start-btn" onclick="startStopwatch()">Start</button>
+      <button id="pause-btn" onclick="pauseStopwatch()">Pause</button>
+      <button id="reset-btn" onclick="resetStopwatch()">Reset</button>
+      <button id="lap-btn" onclick="recordLap()">Lap</button>
+    </div>
+    <ul id="lap-times"></ul>
+  </div>
+  <script src="index.css"></script>
+</body>
+</html>
